@@ -85,9 +85,12 @@ function showData(){
 
 showData();
 
-//delete product 
+//delete product one item
 function deleteProduct(i){
 dataProduct.splice(i,1);
 localStorage.product = JSON.stringify(dataProduct);
 showData();
+}
+function deleteProducts(){
+
 }
